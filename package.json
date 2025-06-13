@@ -1,0 +1,22 @@
+{
+  "name": "globetelecom-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earlyshy/globetelecom-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/earlyshy/globetelecom-builder/issues"
+  },
+  "homepage": "https://github.com/earlyshy/globetelecom-builder#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.53.0",
+    "@types/node": "^24.0.1"
+  }
+}
