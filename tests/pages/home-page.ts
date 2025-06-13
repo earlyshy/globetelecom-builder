@@ -7,7 +7,9 @@ export class HomePage extends BasePage {
 
     constructor(page: Page){
         super(page);
-
+        this.userIcon = this.page.getByRole('button').nth(2);
     }
-
+    async clickUserIcon(): Promise<void>{
+        await this.userIcon.click();
+    }
 }
